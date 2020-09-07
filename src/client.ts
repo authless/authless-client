@@ -17,7 +17,6 @@ interface UrlParams {
 }
 
 class Client {
-
   serverUri: string
   retries: number
   axios: AxiosStatic
@@ -29,15 +28,9 @@ class Client {
     return true
   }
 
-  /**
-   *
-   * @param config.retries - how many times it should be retried
-   * @param config.serverUri: authless server uri
-   *
- */
   constructor (config: Config) {
     try {
-      if(Client.isValidConfig(config)) {
+      if (Client.isValidConfig(config)) {
         this.serverUri = config.serverUri
         this.retries = config.retries
         this.axios = config.axios ?? axios
