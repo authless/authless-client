@@ -1,3 +1,10 @@
+### [2.0.3](https://github.com/authless/authless-client/compare/v2.0.2...v2.0.3) (2020-09-25)
+
+
+### Bug Fixes
+
+* remove obsolete check-types dep ([c154f3d](https://github.com/authless/authless-client/commit/c154f3d3c27e9efe77104c546ce3946a302be9cf))
+
 ### [2.0.2](https://github.com/authless/authless-client/compare/v2.0.1...v2.0.2) (2020-09-25)
 
 
